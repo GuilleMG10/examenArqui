@@ -1,0 +1,7 @@
+server:
+    port: 9090
+sentry:
+  dsn: https://3be32f810e4d95346dc4c0ae51b0c621@o4507206469812224.ingest.de.sentry.io/4507207135920208
+  # Set traces-sample-rate to 1.0 to capture 100% of transactions for performance monitoring.
+  # We recommend adjusting this value in production.
+  traces-sample-rate: 1.0
